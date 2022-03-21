@@ -2,7 +2,7 @@
 
 ## Para el proyecto debe descargarse python y pip, se debe descargar desde: https://www.python.org
 
-### Librerias y componentes necesarios para el proyecto (todos se pueden instalar con pip):
+### Librerias y componentes necesarios para el proyecto:
 
 * requests
 
@@ -17,6 +17,12 @@
 * logging 
 
 * pymssql
+
+### Todas se pueden instalar con pip:
+```
+pip install requests, pandas, virtualenv, sqlalchemy, python-decouple, logging, pymssql
+
+```
 
 ### Consideraciones para el correcto funcionamiento del proyecto:
 Se debe especificar la ruta donde va a estar el proyecto y cambiar la misma en las partes del codigo donde se pida
@@ -40,14 +46,10 @@ Se debe especificar la ruta donde va a estar el proyecto y cambiar la misma en l
 
 ### Base de datos:
 
-Creamos la base de datos "db_alkemy" en pgadmin 4
+* Creamos la base de datos "db_alkemy" en pgadmin 4
 
-Para conectarnos a la base de datos usamos esta linea de codigo
-
+### Para conectarnos a la base de datos usamos esta linea de codigo
+```
 create_engine("postgresql://postgres:admin@localhost:5432/db_alkemy")
-
-admin es la contraseña de la base de datos 
-
-El puerto es 5432 
-
-El nombre de la base de datos es db_alkemy
+```
+El nombre, puerto y la contraseña se pueden configurar con pgadmin
