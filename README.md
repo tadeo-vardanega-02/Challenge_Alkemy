@@ -1,8 +1,8 @@
 # Challenge_Alkemy
 
-##Para el proyecto debe descargarse python y pip, se debe descargar desde: https://www.python.org
+## Para el proyecto debe descargarse python y pip, se debe descargar desde: https://www.python.org
 
-###Librerias y componentes necesarios para el proyecto (todos se pueden instalar con pip):
+### Librerias y componentes necesarios para el proyecto (todos se pueden instalar con pip):
 
 * requests
 
@@ -18,13 +18,13 @@
 
 * pymssql
 
-###Consideraciones para el correcto funcionamiento del proyecto:
+### Consideraciones para el correcto funcionamiento del proyecto:
 Se debe especificar la ruta donde va a estar el proyecto y cambiar la misma en las partes del codigo donde se pida
 
 
-###Entorno virtual:
+### Entorno virtual:
 
-#Como crear el entorno virtual donde se va a ejecutar el proyecto:
+### Como crear el entorno virtual donde se va a ejecutar el proyecto:
 
 * En una consola vamos a ir con el comando "cd" hasta llegar al directorio donde queramos alojar el entorno virtual
 
@@ -38,7 +38,7 @@ Se debe especificar la ruta donde va a estar el proyecto y cambiar la misma en l
 * Para correr un programa escribimos python "nombre del archivo.py"
 
 
-###Base de datos:
+### Base de datos:
 
 Creamos la base de datos "db_alkemy" en pgadmin 4
 
