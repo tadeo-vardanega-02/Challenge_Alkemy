@@ -16,8 +16,6 @@
 
 * logging 
 
-* pymssql
-
 ### Todas se pueden instalar con pip:
 ```
 pip install requests, pandas, virtualenv, sqlalchemy, python-decouple, logging, pymssql
