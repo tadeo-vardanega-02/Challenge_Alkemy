@@ -48,6 +48,6 @@ Se debe especificar la ruta donde va a estar el proyecto y cambiar la misma en l
 
 ### Para conectarnos a la base de datos usamos esta linea de codigo
 ```
-create_engine("postgresql://postgres:admin@localhost:5432/db_alkemy")
+engine1 = sqlalchemy.create_engine(secret4)
 ```
-El nombre, puerto y la contraseña se pueden configurar con pgadmin
+Todas los datos de conexion se pueden configurar de la forma que el desarrollador quiera.
